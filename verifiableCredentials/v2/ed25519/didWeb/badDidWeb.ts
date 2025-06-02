@@ -1,4 +1,4 @@
-export const v2WithBadDidWeb = {
+{
     "type": [
         "VerifiableCredential",
         "OpenBadgeCredential"
