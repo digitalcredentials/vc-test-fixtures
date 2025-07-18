@@ -315,6 +315,12 @@ The raw url is intended for testing in VerifierPlus and the QR for testing in th
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.png)
 
+### /v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.json
+
+[rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.png)
+
 ### /v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json
 
 [rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json)
