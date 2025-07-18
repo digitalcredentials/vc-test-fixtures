@@ -14,7 +14,6 @@ The raw url is intended for testing in VerifierPlus and the QR for testing in th
   - the type of registry, i.e, legacy, mixedRegistry, oidf, etc.
   - the revocation status; noStatus, validStatus, or revoked
   - the expiration status: expired, notExpired, noExpiry
-
   
 ### /v1/bothSignatureTypes/didKey/fourRegistry-noStatus-noExpiry.json
 
@@ -309,6 +308,12 @@ The raw url is intended for testing in VerifierPlus and the QR for testing in th
 [rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.png)
+
+### /v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.json
+
+[rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.png)
 
 ### /v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json
 
