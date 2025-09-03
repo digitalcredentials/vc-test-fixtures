@@ -4,6 +4,10 @@ A list of all the Verifiable Credentials in this repository, with a link to the 
 
 The raw url is intended for testing in VerifierPlus and the QR for testing in the Learner Credential Wallet.
 
+The QR contains the same url, intended to be scanned from the Learner Credential Wallet or VerifierPlus.
+
+The 'Click to see copyable raw json' option opens a collapsed view of the raw JSON for the VC.
+
 ### Notes
 
 - 'v1' and 'v2' identify the credentials as version 1 or version 2 of the Verifiable Credentials data model.
