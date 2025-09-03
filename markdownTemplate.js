@@ -2,11 +2,11 @@ export default `# Verifiable Credentials for Testing
 
 A list of all the Verifiable Credentials in this repository, with a link to the raw github url for each credential and also a QR pointing at the raw github url.
 
+The 'Click to see copyable raw json' option opens a collapsed view of the raw JSON for the VC.
+
 The raw url is intended for testing in VerifierPlus and the QR for testing in the Learner Credential Wallet.
 
 The QR contains the same url, intended to be scanned from the Learner Credential Wallet or VerifierPlus.
-
-The 'Click to see copyable raw json' option opens a collapsed view of the raw JSON for the VC.
 
 ### Notes
 
