@@ -2,8 +2,8 @@ export default `# Verifiable Credentials for Testing
 
 A list of all the Verifiable Credentials in this repository, providing for each VC:
 
-* A 'Click to see copyable raw json' option that opens a collapsed view of the raw JSON for the VC.
-* A 'raw url' is intended for testing in VerifierPlus and the QR for testing in the Learner Credential Wallet.
+* A 'Click to see copyable raw json' option that opens a collapsed view of the raw JSON for the VC, intended for pasting into VerifierPlus and the Learner Credential Wallet.
+* A 'raw url' intended for pasting into VerifierPlus.
 * A QR containing the same 'raw url', intended to be scanned from the Learner Credential Wallet or VerifierPlus.
 
 ### Notes
