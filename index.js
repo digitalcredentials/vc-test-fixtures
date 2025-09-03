@@ -16,8 +16,6 @@ const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).
         const relativePath = pathToVC.split('verifiableCredentials').pop()
         const rawGithubURL = `https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials${relativePath}`
         const localImageFilePath = pathToVC.slice(0, -4) + 'png'
-        console.log("local image file path:")
-        console.log(localImageFilePath)
        
          const theJSON = fs.readFileSync(pathToVC, 'utf8');
 
@@ -34,7 +32,7 @@ const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).
 
 <details>
 
-<summary>Raw JSON</summary>
+<summary>Click to see copyable raw json</summary>
 
 ${'```json'}
    ${theJSON}
