@@ -16,8 +16,8 @@ const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).
         const relativePath = pathToVC.split('verifiableCredentials').pop()
         const rawGithubURL = `https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials${relativePath}`
         const localImageFilePath = pathToVC.slice(0, -4) + 'png'
-        console.log("local image file path:")
-        console.log(localImageFilePath)
+       
+         const theJSON = fs.readFileSync(pathToVC, 'utf8');
 
         try {
             await QRCode.toFile(localImageFilePath, rawGithubURL, {})
@@ -26,8 +26,17 @@ const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).
             console.log(err)
         }
 
-
         return `### ${relativePath}
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+${'```json'}
+   ${theJSON}
+${'```'}
+
+</details>
 
 [rawURL](${rawGithubURL})
 
