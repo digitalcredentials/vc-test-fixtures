@@ -28,12 +28,14 @@ const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).
 
         return `### ${relativePath}
 
-        <details>
+<details>
 
 <summary>Click to see copyable raw json</summary>
+
 ${'```json'}
    ${theJSON}
 ${'```'}
+
 </details>
 
 [rawURL](${rawGithubURL})
