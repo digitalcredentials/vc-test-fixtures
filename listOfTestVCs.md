@@ -3766,6 +3766,107 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ### /v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.json
 
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "name": "A marvel",
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "Bestest Ever University",
+        "url": "https://bestest.edu",
+        "phone": "1-222-333-4444",
+        "description": "The bestest.",
+        "image": {
+            "id": "https://github.com/digitalcredentials/test-files/assets/206059/01eca9f5-a508-40ac-9dd5-c12d11308894",
+            "type": "Image",
+            "caption": "MIT oh"
+        },
+        "email": "horse@better.edu",
+        "address": {
+            "type": [
+                "Address"
+            ],
+            "addressCountry": "Canada",
+            "addressCountryCode": "CA",
+            "addressRegion": "ON",
+            "addressLocality": "Ancaster",
+            "streetAddress": "163 Corndog",
+            "postOfficeBoxNumber": "2",
+            "postalCode": "L9G4H7",
+            "geo": {
+                "type": "GeoCoordinates",
+                "latitude": 1,
+                "longitude": 1
+            }
+        },
+        "otherIdentifier": [
+            {
+                "type": "IdentifierEntry",
+                "identifier": "9335",
+                "identifierType": "sourcedId"
+            },
+            {
+                "type": "IdentifierEntry",
+                "identifier": "984",
+                "identifierType": "nationalIdentityNumber"
+            }
+        ],
+        "official": "Charlie Horse",
+        "parentOrg": {
+            "id": "did:example:89898349834",
+            "type": [
+                "Profile"
+            ],
+            "name": "Animal Universities"
+        },
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "validFrom": "2099-01-01T00:00:00Z",
+    "validUntil": "9999-01-02T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "name": "Sam Salmon",
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "name": "A credential that isn't yet valid",
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment."
+        }
+    },
+    "id": "urn:uuid:677fe8a6cacf98774d482d06",
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-07-18T14:46:59Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3ATKLuXyMbWyCEQGDZev5jcDmqE8LygGwovNnzK1nSGXcq9yuys2ap8nNLZT8UB6zX5xjtYRQUtAKoApwoc5NfHk"
+    }
+}
+```
+
+</details>
+
 [rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.png)
@@ -3837,6 +3938,74 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.png)
+
+### /v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "name": "Teamwork Badge",
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp",
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2010-01-02T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "name": "Sam Salmon",
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "name": "Bachelors - v2 - revoked",
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment."
+        }
+    },
+    "id": "urn:uuid:677fe8a6cacf98774d482d06",
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/e5WK8CbZ1GjycuPombrj#7",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/e5WK8CbZ1GjycuPombrj",
+        "statusListIndex": "7"
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-09-04T12:49:18Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z36GMLQ2PkNChPosGzh5M1Px5r7Wd54wS3htX5QLZmoKrNYd8mqyBhiWWSGvghX2A9jbQKww8FpRUVaXz17XQctWf"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.png)
 
 ### /v2/dataIntegrityProof/didweb/legacy-revokedStatus-expired.json
 
