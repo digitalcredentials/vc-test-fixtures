@@ -1,0 +1,25 @@
+{
+  "name": "vc-test-fixtures",
+  "version": "1.0.0",
+  "description": "A set of test VCs, status lists, and DIDs for testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-md-list": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalcredentials/vc-test-fixtures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalcredentials/vc-test-fixtures/issues"
+  },
+  "homepage": "https://github.com/digitalcredentials/vc-test-fixtures#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "type": "module"
+}

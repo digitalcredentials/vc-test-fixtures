@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/data-integrity/v2"
+    ],
+    "id": "urn:uuid:2fe53dc9-b2ec-4939-9b2c-0d00f6663b6c",
+    "issuanceDate": "2025-01-09T15:06:31Z",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "name": "DCC Test Credential",
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "name": "Digital Credentials Consortium Test Issuer",
+        "url": "https://dcconsortium.org",
+        "image": "https://user-images.githubusercontent.com/752326/230469660-8f80d264-eccf-4edd-8e50-ea634d407778.png"
+    },
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "urn:uuid:bd6d9316-f7ae-4073-a1e5-2f7f5bd22922",
+            "type": [
+                "Achievement"
+            ],
+            "achievementType": "Diploma",
+            "name": "Badge",
+            "description": "This is a sample credential issued by the Digital Credentials Consortium to demonstrate the functionality of Verifiable Credentials for wallets and verifiers.",
+            "criteria": {
+                "type": "Criteria",
+                "narrative": "This credential was issued to a student that demonstrated proficiency in the Python programming language that occurred from **February 17, 2023** to **June 12, 2023**."
+            },
+            "image": {
+                "id": "https://user-images.githubusercontent.com/752326/214947713-15826a3a-b5ac-4fba-8d4a-884b60cb7157.png",
+                "type": "Image"
+            }
+        },
+        "name": "Jane Doe"
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-05-07T19:26:54Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4S6N4STsyhkuQ54WwPQ8Zj19fQbnoTGjTHpUVwCjNwznX8z35wkqiuU3r2jWetSXXVtNovuT7drfM3rhZv4ef3LR"
+    }
+}

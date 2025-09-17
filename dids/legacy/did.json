@@ -1,0 +1,16 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1",
+        "https://w3id.org/security/suites/x25519-2020/v1"
+    ],
+    "id": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy",
+    "assertionMethod": [
+        {
+            "id": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy#z6MkjXe1vZvPRqFuc9nRBtZ3e1Y9XKDFSbjFAfzLfW2bD6cZ",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy",
+            "publicKeyMultibase": "z6MkjXe1vZvPRqFuc9nRBtZ3e1Y9XKDFSbjFAfzLfW2bD6cZ"
+        }
+    ]
+}
