@@ -3481,6 +3481,73 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
 
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "name": "Teamwork Badge",
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp",
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
+    },
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2056-01-02T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "name": "Sam Salmon",
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "name": "Bachelors - v2 - revoked",
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment."
+        }
+    },
+    "id": "urn:uuid:677fe8a6cacf98774d482d06",
+    "credentialSchema": [
+        {
+            "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+            "type": "JsonSchema"
+        }
+    ],
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-10-07T18:18:37Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2DNygd6sg2xS2BrJaT5ZVHawQGJKh1zo1JUpQDRmC6W2hYREE5qexRVfuQURevgcPk6mg4QSc5F8DSqTEPLwc8Qc"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.png)
+
 ### /v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.json
 
 <details>
