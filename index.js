@@ -14,7 +14,7 @@ const files = fs.readdirSync(pathToVCs, { withFileTypes: true, recursive: true }
 const promises = files.filter(file=>file.isFile && file.name.endsWith('.json')).map(async (file) => {
         const pathToVC = path.join(file.parentPath, file.name)
         const relativePath = pathToVC.split('verifiableCredentials').pop()
-        const rawGithubURL = `https://github.com/digitalcredentials/vc-test-fixtures/raw/refs/heads/main/verifiableCredentials${relativePath}`
+        const rawGithubURL = `https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials${relativePath}`
         const localImageFilePath = pathToVC.slice(0, -4) + 'png'
        
          const theJSON = fs.readFileSync(pathToVC, 'utf8');
@@ -39,6 +39,8 @@ ${'```'}
 </details>
 
 [rawURL](${rawGithubURL})
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=${rawGithubURL})
 
 ![QR](verifiableCredentials${relativePath.slice(0, -4)}png)
 
