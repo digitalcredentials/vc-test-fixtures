@@ -2,6 +2,9 @@
 
 A set of test VCs, status lists, and DIDs for testing.
 
+>[!TIP]
+>You might want to jump straight to the [list of the verifiable credentials](./listOfTestVCs.md), which includes a QR code, copy/pastable JSON, link to raw JSON, and a VerifierPlus link for each credential.
+
 The structure of this repository is mostly self-explanatory. There are three main directories, one each for:
 
 - verifiable credentials
@@ -17,8 +20,6 @@ so like this example:
 legacy-noStatus-noExpiry.json 
 
 which means the VC was signed with a DID that is registered in one of our legacy regsitries, most likely the sandbox registry, and has neither a status nor an expiration property.
-
-
 
 ## DIDs
 
