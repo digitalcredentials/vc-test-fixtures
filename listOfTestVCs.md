@@ -3576,6 +3576,45 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
 
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2"
+    ],
+    "id": "urn:uuid:4636EB2F-1B73-AAAA-981E-CFA85A5B13E3",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "credentialSubject": {
+        "name": "James Chartrand",
+        "description": "James rode his new bike on the trails."
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-10-09T13:50:34Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z5BAEaLJNptR4L7H4yUDskA3k5eNHNVVDYTXRDndLMGACoNtAdXohLtABX4KynimDmdA629h6PaSnhFZxyFVurpoX"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.png)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json
 
 <details>
