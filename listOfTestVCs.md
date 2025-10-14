@@ -4179,7 +4179,7 @@ A list of all the Verifiable Credentials in this repository, providing for each 
             "issuanceDate": "https://www.w3.org/2018/credentials/v1#issuanceDate"
         }
     ],
-    "validFrom": "2010-01-01T00:00:00Z",
+    "issuanceDate": "2010-01-01T00:00:00Z",
     "validUntil": "2030-01-02T00:00:00Z",
     "credentialSubject": {
         "type": [
@@ -4208,11 +4208,11 @@ A list of all the Verifiable Credentials in this repository, providing for each 
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-10-14T17:07:12Z",
+        "created": "2025-10-14T18:37:54Z",
         "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z46CrPzNYRhj9VNDXxPxEcMZb15kNnDQA5ZYNngXVgkMYFbikcT1UYEkfADhQ6Z54oKosL4rVpnD1ANgTqrd5gBiw"
+        "proofValue": "z34sJuocK7h7YVHf8ZZ1bzei3UyZ8NTWosovhs4RcT34dyn4mptVobe6VW1oCU8APXGoHQNXbQvq8B7HXowosbHcq"
     }
 }
 ```
