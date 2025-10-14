@@ -4152,6 +4152,79 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.png)
 
+### /v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "name": "Teamwork Badge",
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp",
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        {
+            "issuanceDate": "https://www.w3.org/2018/credentials/v1#issuanceDate"
+        }
+    ],
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2030-01-02T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "name": "Sam Salmon",
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "name": "Bachelors - v2 - revoked",
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment."
+        }
+    },
+    "id": "urn:uuid:677fe8a6cacf98774d482d06",
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/e5WK8CbZ1GjycuPombrj#8",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/e5WK8CbZ1GjycuPombrj",
+        "statusListIndex": "8"
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-10-14T17:07:12Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z46CrPzNYRhj9VNDXxPxEcMZb15kNnDQA5ZYNngXVgkMYFbikcT1UYEkfADhQ6Z54oKosL4rVpnD1ANgTqrd5gBiw"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.png)
+
 ### /v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json
 
 <details>
