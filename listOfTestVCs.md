@@ -99,6 +99,79 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/fourRegistry-noStatus-noExpiry.png)
 
+### /v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/data-integrity/v2",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "issuanceDate": "2025-01-09T15:06:31Z",
+    "id": "http://example.com/credentials/3527",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp"
+    },
+    "name": "Teamwork Badge",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+            "name": "Teamwork"
+        }
+    },
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-21T17:53:11Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "zMTMopSz2YQU3kHyiWzuewBiCkZohZdabbVP2rDRc55Q3L4Ua1zL7UUGAZna7Ni2SCixmADbivoFLRyVRLPaEJJx"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-21T17:53:11Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z39ejdz18CfoVvFd3MGYnDQQAyJno9d744F3Nng7RihwUN7XKumKq1KuB92d5WRWXBLwoFcgr6hv9fcBpnQpnKs8g"
+        }
+    ]
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json)
+
+![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.png)
+
 ### /v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry.json
 
 <details>
@@ -1250,6 +1323,69 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacy-noStatus-noExpiry.png)
+
+### /v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/data-integrity/v2"
+    ],
+    "id": "http://example.com/credentials/3527",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp"
+    },
+    "issuanceDate": "2010-01-01T00:00:00Z",
+    "name": "Teamwork Badge",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+            "name": "Teamwork"
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-10-16T11:29:08Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2cP796BFLABuyBhXBGesdnC9q3AudnGuyREghuBqW7PQ9TD8otiAPgQThKcp4evfBeYfjU9jf9FfGSDiCxhTFJ3"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
+
+![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
 
 ### /v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.json
 
@@ -3105,6 +3241,152 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/oidf-validStatus-noExpiry.png)
 
+### /v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "http://example.com/credentials/3527",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "name": "Teamwork Badge",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+            "name": "Teamwork"
+        }
+    },
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-21T17:36:35Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "zmiDkVKnpeYqoKPZQoAXRUpV7fp2AE7o6cvdu8vVYqo5prKxJUy4tBiggLNc3g58AfU7FBXXvZFStgMezzAWEXxT"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-21T17:36:35Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "zcjEG7ixf7C1szVcAjA7uDHmv5B2rE6dw8qfvo8t16TbStqhKNTPUicNVN4t4F6Gq1DtpXRwDxj8rCHudD7MmMFr"
+        }
+    ]
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json)
+
+![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.png)
+
+### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://purl.imsglobal.org/spec/ob/v3p0/extensions.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "http://1edtech.edu/endorsementcredential/3732",
+    "type": [
+        "VerifiableCredential",
+        "EndorsementCredential"
+    ],
+    "name": "SDE endorsement",
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "State Department of Education"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2030-01-01T00:00:00Z",
+    "credentialSubject": {
+        "id": "https://1edtech.edu/issuers/565049",
+        "type": [
+            "EndorsementSubject"
+        ],
+        "endorsementComment": "1EdTech University is in good standing"
+    },
+    "credentialSchema": [
+        {
+            "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_endorsementcredential_schema.json",
+            "type": "1EdTechJsonSchemaValidator2019"
+        },
+        {
+            "id": "https://state.gov/schema/endorsementcredential.json",
+            "type": "1EdTechJsonSchemaValidator2019"
+        }
+    ],
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-21T17:33:46Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z2ivXYAPFx2fZkupKZ4qTnu4sEdfZb1RTjwcroB2FcEHsSAv9sgNk5azZTRWrKRTottApwcdSDpCurJZj7wjRtaKR"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-21T17:33:46Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z3uUWuMtN5HqhUEuuaUp6JaHYfF3xLYkCSPSMsYEsRYfMcThLbQ115GHYve2dkr3esfVC88k5pL8C7Ws3b422vmEq"
+        }
+    ]
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json)
+
+![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.png)
+
 ### /v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-expired.json
 
 <details>
@@ -3575,6 +3857,68 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.json)
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
+
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "id": "http://example.com/credentials/3527",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "name": "Teamwork Badge",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+            "name": "Teamwork"
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-10-16T11:17:36Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z24kX1hKxQCgTH7sZZuAXHJYRwDSMqNPtmM8UbTb2ryCXyHr1VeHdkt2xxUYSPrFJBuEivBqifYRYwg7p1jLNMbo9"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json
 
