@@ -3313,7 +3313,7 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.png)
 
-### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json
+### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.json
 
 <details>
 
@@ -3353,27 +3353,87 @@ A list of all the Verifiable Credentials in this repository, providing for each 
         {
             "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_endorsementcredential_schema.json",
             "type": "1EdTechJsonSchemaValidator2019"
-        },
-        {
-            "id": "https://state.gov/schema/endorsementcredential.json",
-            "type": "1EdTechJsonSchemaValidator2019"
         }
     ],
     "proof": [
         {
             "type": "DataIntegrityProof",
-            "created": "2025-10-21T17:33:46Z",
+            "created": "2025-10-21T18:59:37Z",
             "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
             "cryptosuite": "eddsa-rdfc-2022",
             "proofPurpose": "assertionMethod",
-            "proofValue": "z2ivXYAPFx2fZkupKZ4qTnu4sEdfZb1RTjwcroB2FcEHsSAv9sgNk5azZTRWrKRTottApwcdSDpCurJZj7wjRtaKR"
+            "proofValue": "z2ezTpoGKVrTk3dBKN89sLW363hVfWweeT1NhEkuN21dp2WogviMJfgDZvw5xrpJBZsWT2SwiQHEN2zCn7pF7yWne"
         },
         {
             "type": "Ed25519Signature2020",
-            "created": "2025-10-21T17:33:46Z",
+            "created": "2025-10-21T18:59:37Z",
             "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
             "proofPurpose": "assertionMethod",
-            "proofValue": "z3uUWuMtN5HqhUEuuaUp6JaHYfF3xLYkCSPSMsYEsRYfMcThLbQ115GHYve2dkr3esfVC88k5pL8C7Ws3b422vmEq"
+            "proofValue": "z5ZeqRhRd4rHkeQtvewNc3WYxoBR7oCot6XBufEJHXHDqgM2gvaqMHdhg1KjmEqDwY4PYuzbehsS7SVwZv4sVe1cN"
+        }
+    ]
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.json)
+
+![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.png)
+
+### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://purl.imsglobal.org/spec/ob/v3p0/extensions.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "http://1edtech.edu/endorsementcredential/3732",
+    "type": [
+        "VerifiableCredential",
+        "EndorsementCredential"
+    ],
+    "name": "SDE endorsement",
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "State Department of Education"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2030-01-01T00:00:00Z",
+    "credentialSubject": {
+        "id": "https://1edtech.edu/issuers/565049",
+        "type": [
+            "EndorsementSubject"
+        ],
+        "endorsementComment": "1EdTech University is in good standing"
+    },
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-21T19:00:23Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z5fE8hVqQW18EXrhkHZKhY2Tpt4oqDN4NdZJ1aGoZrRTygF2vnLEbH5pC1ZQJ7Ng4TetAf6Qew2vj4FP365wgqqPc"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-21T19:00:23Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "zPKjDnEAzb6KVBp8f2HntQwDwSGM91u2V2dnNv8qJAUYYEGzKuJV8yYZrHmYmaA3xVEJsEjHjBDTJG9rXnbKpBCi"
         }
     ]
 }
