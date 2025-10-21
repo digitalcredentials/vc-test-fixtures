@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://purl.imsglobal.org/spec/ob/v3p0/extensions.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "http://1edtech.edu/endorsementcredential/3732",
+    "type": [
+        "VerifiableCredential",
+        "EndorsementCredential"
+    ],
+    "name": "SDE endorsement",
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "State Department of Education"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2030-01-01T00:00:00Z",
+    "credentialSubject": {
+        "id": "https://1edtech.edu/issuers/565049",
+        "type": [
+            "EndorsementSubject"
+        ],
+        "endorsementComment": "1EdTech University is in good standing"
+    },
+    "credentialSchema": [
+        {
+            "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_endorsementcredential_schema.json",
+            "type": "1EdTechJsonSchemaValidator2019"
+        }
+    ],
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-21T18:59:37Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z2ezTpoGKVrTk3dBKN89sLW363hVfWweeT1NhEkuN21dp2WogviMJfgDZvw5xrpJBZsWT2SwiQHEN2zCn7pF7yWne"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-21T18:59:37Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z5ZeqRhRd4rHkeQtvewNc3WYxoBR7oCot6XBufEJHXHDqgM2gvaqMHdhg1KjmEqDwY4PYuzbehsS7SVwZv4sVe1cN"
+        }
+    ]
+}
