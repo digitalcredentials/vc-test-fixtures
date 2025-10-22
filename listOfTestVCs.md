@@ -3241,6 +3241,69 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/oidf-validStatus-noExpiry.png)
 
+### /v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://purl.imsglobal.org/spec/ob/v3p0/extensions.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "http://1edtech.edu/endorsementcredential/3732",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "name": "SDE endorsement",
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "State Department of Education"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "validUntil": "2030-01-01T00:00:00Z",
+    "credentialSubject": {
+        "id": "https://1edtech.edu/issuers/565049",
+        "type": [
+            "EndorsementSubject"
+        ],
+        "endorsementComment": "1EdTech University is in good standing"
+    },
+    "proof": [
+        {
+            "type": "DataIntegrityProof",
+            "created": "2025-10-22T13:20:55Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "cryptosuite": "eddsa-rdfc-2022",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z2MVWaHfKvfzTTu8rEXCDya4HGPQmiRsgZopMUaTkTrSAL9TYZAvgE5QH4oo3SJGmZDDDBDJ1JkKU7CfHGuCgRhXH"
+        },
+        {
+            "type": "Ed25519Signature2020",
+            "created": "2025-10-22T13:20:55Z",
+            "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "proofPurpose": "assertionMethod",
+            "proofValue": "z5UGS9qzcFZS5NSEQpSZbsfz7yfZR8MHYqqKX1dTiKCfTckmBpxjQNfd7sS3xFKAgcHR5Miqwm8yYanTCWLrRBCef"
+        }
+    ]
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json)
+
+![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.png)
+
 ### /v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json
 
 <details>
