@@ -4043,6 +4043,68 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
 
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "validFrom": "2025-01-09T15:06:31Z",
+    "id": "http://example.com/credentials/3527",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example Corp"
+    },
+    "name": "Teamwork Badge",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://example.com/achievements/21st-century-skills/teamwork",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+            },
+            "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+            "name": "Teamwork"
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-11-10T14:49:26Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3jqgQq2WpjsvHQp9XWxKcMvcehyTurrWawo33jvQk8CvbjQRvAgtsw9P2u2fXqY7iABSuBQdtt9UQyHsN82LRuq7"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.png)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json
 
 <details>
