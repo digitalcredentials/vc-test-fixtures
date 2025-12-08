@@ -1387,6 +1387,54 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
 
+### /v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1",
+        "https://w3id.org/dcc/v1",
+        "https://w3id.org/security/data-integrity/v2"
+    ],
+    "id": "urn:uuid:09u09audf0sudf",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": {
+        "name": "Your friendly issuer.",
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
+    },
+    "issuanceDate": "2021-09-06T00:00:00.000Z",
+    "credentialSubject": {
+        "name": "Ya Ya Na",
+        "hasCredential": {
+            "name": "GT Guide"
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-12-08T15:05:02Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z5r4R4D9yDXfcoFpkpYn7viHLUZUC3cXRB15d3chM7D6ZeD528PHipkPnNqUSek4LfwWtnFrBi96UjzfP11S3pPSi"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json)
+
+![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.png)
+
 ### /v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.json
 
 <details>
