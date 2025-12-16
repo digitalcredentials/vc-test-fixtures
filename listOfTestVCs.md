@@ -4090,6 +4090,79 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
 
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:19281fe8-90d2-4eao-a9da-6188898a6c",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "The Learned",
+        "image": {
+            "id": "https://digitalcredentials.github.io/badge-assets/classroom.png",
+            "type": "Image",
+            "caption": "Learned logo"
+        },
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "validFrom": "2025-02-24T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "name": "Parker Pearl",
+        "achievement": {
+            "id": "https://something.org/theProgram",
+            "achievementType": "Program",
+            "type": [
+                "Achievement"
+            ],
+            "image": {
+                "id": "https://digitalcredentials.github.io/badge-assets/brain.png",
+                "type": "Image",
+                "caption": "Certificate logo"
+            },
+            "criteria": {
+                "narrative": "Objectively told the truth"
+            },
+            "description": "Successfully completed all modules.",
+            "name": "Truth, veracity, candor, and verisimilitude."
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-12-16T15:29:35Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2Zw9tAWVKxVpUX6dHnXcrP2y4kGPP5LYBQ9CvZrVyJ5JMq9wVtfZCv68otSYPuxpzahSdGBQQjXagQE5rDwLCBZr"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.png)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
 
 <details>
@@ -4277,6 +4350,158 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.png)
+
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:19281fe8-90d2-4eao-a9da-6188898a6c",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "The Learned",
+        "image": {
+            "id": "https://digitalcredentials.github.io/badge-assets/classroom.png",
+            "type": "Image",
+            "caption": "Learned logo"
+        },
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "validFrom": "2025-02-24T00:00:00Z",
+    "name": "Parker Pearl",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://something.org/theProgram",
+            "achievementType": "Program",
+            "type": [
+                "Achievement"
+            ],
+            "image": {
+                "id": "https://digitalcredentials.github.io/badge-assets/brain.png",
+                "type": "Image",
+                "caption": "Certificate logo"
+            },
+            "criteria": {
+                "narrative": "Objectively told the truth"
+            },
+            "description": "Successfully completed all modules.",
+            "name": "Truth, veracity, candor, and verisimilitude."
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-12-16T15:34:06Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zJq8faw3zV7qgkRZFeMxVCF3WADmeYTgsTUrem2c4bJU7LQYEKeTx9u2jk16fyF8QrhVE5cQA425DG6HZwhRqbHZ"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.png)
+
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:19281fe8-90d2-4eao-a9da-6188898a6c",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "type": [
+            "Profile"
+        ],
+        "name": "The Learned",
+        "image": {
+            "id": "https://digitalcredentials.github.io/badge-assets/classroom.png",
+            "type": "Image",
+            "caption": "Learned logo"
+        },
+        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+    },
+    "validFrom": "2025-02-24T00:00:00Z",
+    "credentialSubject": {
+        "type": [
+            "AchievementSubject"
+        ],
+        "identifier": {
+            "type": "IdentityObject",
+            "identityHash": "Parker Pearl",
+            "identityType": "name",
+            "hashed": false,
+            "salt": "not-used"
+        },
+        "achievement": {
+            "id": "https://something.org/theProgram",
+            "achievementType": "Program",
+            "type": [
+                "Achievement"
+            ],
+            "image": {
+                "id": "https://digitalcredentials.github.io/badge-assets/brain.png",
+                "type": "Image",
+                "caption": "Certificate logo"
+            },
+            "criteria": {
+                "narrative": "Objectively told the truth"
+            },
+            "description": "Successfully completed all modules.",
+            "name": "Truth, veracity, candor, and verisimilitude."
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-12-16T14:47:29Z",
+        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3F4tZZSnoeZiSW7JhMuUMUjefidVHaMk2HHBqvv2KXbhJ7FTTvmbUTDHD1jnSmgq3SmiggHSdfT4QdPEQvcTdr6c"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.png)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json
 
@@ -5202,6 +5427,98 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didweb/oidf-noStatus-notExpired.png)
 
+### /v2/ed25519/didKey/legacy-expiredStatus-noExpiry.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:4636EB2F-1B73-47EA-981E-CFA85A5B13E3",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "credentialSubject": {
+        "name": "James Chartrand",
+        "description": "James rode his new bike on the trails."
+    },
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/expired#7",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/expired",
+        "statusListIndex": "7"
+    },
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-12-09T21:24:38Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2dxG8K3vuEWXg5subB6H3mo1r4Zeq2v1Xv7tWPXR2hnr57T9ZH162hC1451RBcN99ZJ42d5gGqzhATttME3svxwc"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-expiredStatus-noExpiry.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-expiredStatus-noExpiry.json)
+
+![QR](verifiableCredentials/v2/ed25519/didKey/legacy-expiredStatus-noExpiry.png)
+
+### /v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:4636EB2F-1B73-47EA-981E-CFA85A5B13E3",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "credentialSubject": {
+        "name": "James Chartrand",
+        "description": "James rode his new bike on the trails."
+    },
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/missingBitStringType#7",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/missingBitStringType",
+        "statusListIndex": "7"
+    },
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-12-09T21:25:53Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zzQDUwyambLCK1CcWx5j4WKs7kL3MeGCdRpymj8V4XB16wcR9jH28NJYwweQRExXs1tyjEzPnw58USEsDzsDaqXN"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json)
+
+![QR](verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.png)
+
 ### /v2/ed25519/didKey/legacy-noStatus-expired.json
 
 <details>
@@ -5382,6 +5699,98 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry.png)
+
+### /v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:4636EB2F-1B73-47EA-981E-CFA85A5B13E3",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "credentialSubject": {
+        "name": "James Chartrand",
+        "description": "James rode his new bike on the trails."
+    },
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/notYetValid#7",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/notYetValid",
+        "statusListIndex": "7"
+    },
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-12-09T21:27:09Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4yiqoJhg38DCwokbbDqsUaQqKC6wxaTSqecafNYkDHTfZc83NCxd6wKRDc9WmwDj1EDCE6L41JwiwQPbqHs4VQEH"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.json)
+
+![QR](verifiableCredentials/v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.png)
+
+### /v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "urn:uuid:4636EB2F-1B73-47EA-981E-CFA85A5B13E3",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "credentialSubject": {
+        "name": "James Chartrand",
+        "description": "James rode his new bike on the trails."
+    },
+    "credentialStatus": {
+        "id": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/tampered#7",
+        "type": "BitstringStatusListEntry",
+        "statusPurpose": "revocation",
+        "statusListCredential": "https://digitalcredentials.github.io/vc-test-fixtures/statusLists/didkey-ed25519Signature2020/tampered",
+        "statusListIndex": "7"
+    },
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-12-09T21:20:04Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4Bi8wA7qeYARJuXTSDFLBN1gz4VKUpxqqafyUCUoV3akiPcQ4CqP2LU7s2M1YXrt3TdrQiar147kP2cQjsFawRuU"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json)
+
+![QR](verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.png)
 
 ### /v2/ed25519/didKey/noRegistry-revokedStatus-expired.json
 
