@@ -4289,6 +4289,87 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-achievementTypeExample.png)
 
+### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.json
+
+<details>
+
+<summary>Click to see copyable raw json</summary>
+
+```json
+   {
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "id": "http://example.edu/credentials/3732",
+    "type": [
+        "VerifiableCredential",
+        "OpenBadgeCredential"
+    ],
+    "issuer": {
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "type": [
+            "Profile"
+        ],
+        "name": "Example University"
+    },
+    "validFrom": "2010-01-01T00:00:00Z",
+    "name": "Example University Degree",
+    "credentialSubject": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "type": [
+            "AchievementSubject"
+        ],
+        "achievement": {
+            "id": "https://1edtech.edu/achievements/1",
+            "type": [
+                "Achievement"
+            ],
+            "criteria": {
+                "narrative": "Cite strong and thorough textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text, including determining where the text leaves matters uncertain"
+            },
+            "description": "Analyze a sample text",
+            "name": "Text analysis",
+            "alignment": [
+                {
+                    "type": [
+                        "Alignment"
+                    ],
+                    "targetCode": "ce-cf4dee18-7cea-443a-b920-158a0762c6bf",
+                    "targetFramework": "Edmonds College Course Catalog",
+                    "targetName": "Requirements Analysis",
+                    "targetUrl": "https://credentialfinder.org/credential/20229/Requirements_Analysis"
+                },
+                {
+                    "type": [
+                        "Alignment"
+                    ],
+                    "targetName": "Requirements Analysis",
+                    "targetUrl": "https://credentialfinder.org/credential/20229/Requirements_Analysis",
+                    "targetDescription": "This is a description"
+                }
+            ]
+        }
+    },
+    "proof": {
+        "type": "DataIntegrityProof",
+        "created": "2025-12-17T14:26:31Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2xg5wFY76s58RSeEvgYaniGaTS2H2NgjUi5PcnirKRVSGdywiiBA9mAxW9CzP56VuBpcQrzg5KAPqThDsFYfwUxS"
+    }
+}
+```
+
+</details>
+
+[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.json)
+
+[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.json)
+
+![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.png)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json
 
 <details>
