@@ -44,7 +44,7 @@ ${'```'}
 
 ![QR](verifiableCredentials${relativePath.slice(0, -4)}png)
 
-${file.name.includes('oidf')?'':'Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=' + rawGithubURL})
+${(file.name.includes('oidf') || file.name.includes('mixed'))?'':'Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=' + rawGithubURL})
 
 `
     }

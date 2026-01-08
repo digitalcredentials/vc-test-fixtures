@@ -346,7 +346,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/mixedRegistry-validStatus-noExpiry.png)
 
-Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/mixedRegistry-validStatus-noExpiry.json)
+)
 
 ### /v1/bothSignatureTypes/didKey/noRegistry-noStatus-noExpiry.json
 
@@ -1549,7 +1549,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.png)
 
-Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.json)
+)
 
 ### /v1/dataIntegrityProof/didKey/noRegistry-noStatus-noExpiry.json
 
@@ -2686,7 +2686,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/mixedRegistry-validStatus-noExpiry.png)
 
-Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/mixedRegistry-validStatus-noExpiry.json)
+)
 
 ### /v1/ed25519/didKey/noRegistry-noStatus-noExpiry.json
 
