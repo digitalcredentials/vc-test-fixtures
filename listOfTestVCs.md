@@ -99,6 +99,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/fourRegistry-noStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/fourRegistry-noStatus-noExpiry.json)
+
 ### /v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json
 
 <details>
@@ -171,6 +173,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry-basicOBv3.json)
 
 ### /v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry.json
 
@@ -252,6 +256,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/legacy-noStatus-noExpiry.json)
 
 ### /v1/bothSignatureTypes/didKey/mixedRegistry-validStatus-noExpiry.json
 
@@ -340,6 +346,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/mixedRegistry-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/mixedRegistry-validStatus-noExpiry.json)
+
 ### /v1/bothSignatureTypes/didKey/noRegistry-noStatus-noExpiry.json
 
 <details>
@@ -420,6 +428,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/noRegistry-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/noRegistry-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/noRegistry-noStatus-noExpiry.json)
 
 ### /v1/bothSignatureTypes/didKey/oidf-noStatus-expired.json
 
@@ -503,6 +513,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/oidf-noStatus-expired.png)
 
+)
+
 ### /v1/bothSignatureTypes/didKey/oidf-noStatus-noExpiry.json
 
 <details>
@@ -583,6 +595,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didKey/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/bothSignatureTypes/didKey/oidf-revokedStatus-expired.json
 
@@ -672,6 +686,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didKey/oidf-revokedStatus-expired.png)
 
+)
+
 ### /v1/bothSignatureTypes/didWeb/legacy-noStatus-noExpiry.json
 
 <details>
@@ -752,6 +768,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-noStatus-noExpiry.json)
 
 ### /v1/bothSignatureTypes/didWeb/legacy-revokedStaus-noExpiry.json
 
@@ -840,6 +858,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-revokedStaus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-revokedStaus-noExpiry.json)
+
 ### /v1/bothSignatureTypes/didWeb/legacy-validStatus-noExpiry.json
 
 <details>
@@ -927,6 +947,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didWeb/legacy-validStatus-noExpiry.json)
+
 ### /v1/bothSignatureTypes/didWeb/oidf-noStatus-noExpiry.json
 
 <details>
@@ -1007,6 +1029,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/bothSignatureTypes/didWeb/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/bothSignatureTypes/didWeb/oidf-revokedStatus-noExpiry.json
 
@@ -1095,6 +1119,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/oidf-revokedStatus-noExpiry.png)
 
+)
+
 ### /v1/bothSignatureTypes/didWeb/oidf-validStatus-noExpiry.json
 
 <details>
@@ -1182,6 +1208,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/bothSignatureTypes/didWeb/oidf-validStatus-noExpiry.png)
 
+)
+
 ### /v1/dataIntegrityProof/didKey/fourRegistry-noStatus-noExpiry.json
 
 <details>
@@ -1252,6 +1280,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/fourRegistry-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/fourRegistry-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/fourRegistry-noStatus-noExpiry.json)
 
 ### /v1/dataIntegrityProof/didKey/legacy-noStatus-noExpiry.json
 
@@ -1324,6 +1354,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacy-noStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacy-noStatus-noExpiry.json)
+
 ### /v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
 
 <details>
@@ -1387,6 +1419,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
+
 ### /v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json
 
 <details>
@@ -1434,6 +1468,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-oldDCCExample.json)
 
 ### /v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.json
 
@@ -1513,6 +1549,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/mixedRegistry-validStatus-noExpiry.json)
+
 ### /v1/dataIntegrityProof/didKey/noRegistry-noStatus-noExpiry.json
 
 <details>
@@ -1583,6 +1621,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/noRegistry-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/noRegistry-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/noRegistry-noStatus-noExpiry.json)
 
 ### /v1/dataIntegrityProof/didKey/oidf-noStatus-expired.json
 
@@ -1656,6 +1696,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/oidf-noStatus-expired.png)
 
+)
+
 ### /v1/dataIntegrityProof/didKey/oidf-noStatus-noExpiry.json
 
 <details>
@@ -1726,6 +1768,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didKey/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/dataIntegrityProof/didKey/oidf-revokedStatus-expired.json
 
@@ -1806,6 +1850,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didKey/oidf-revokedStatus-expired.png)
 
+)
+
 ### /v1/dataIntegrityProof/didWeb/legacy-noStatus-noExpiry.json
 
 <details>
@@ -1876,6 +1922,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-noStatus-noExpiry.json)
 
 ### /v1/dataIntegrityProof/didWeb/legacy-revokedStatus-noExpiry.json
 
@@ -1955,6 +2003,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-revokedStatus-noExpiry.json)
+
 ### /v1/dataIntegrityProof/didWeb/legacy-validStatus-noExpiry.json
 
 <details>
@@ -2033,6 +2083,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didWeb/legacy-validStatus-noExpiry.json)
+
 ### /v1/dataIntegrityProof/didWeb/oidf-noStatus-noExpiry.json
 
 <details>
@@ -2103,6 +2155,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/dataIntegrityProof/didWeb/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/dataIntegrityProof/didWeb/oidf-revokedStatus-noExpiry.json
 
@@ -2182,6 +2236,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/oidf-revokedStatus-noExpiry.png)
 
+)
+
 ### /v1/dataIntegrityProof/didWeb/oidf-validStatus-noExpiry.json
 
 <details>
@@ -2260,6 +2316,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/dataIntegrityProof/didWeb/oidf-validStatus-noExpiry.png)
 
+)
+
 ### /v1/ed25519/didKey/fourRegistry-noStatus-noExpiry.json
 
 <details>
@@ -2329,6 +2387,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/fourRegistry-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/fourRegistry-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/fourRegistry-noStatus-noExpiry.json)
 
 ### /v1/ed25519/didKey/legacy-noStatus-expired.json
 
@@ -2401,6 +2461,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-expired.json)
+
 ### /v1/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.json
 
 <details>
@@ -2463,6 +2525,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.json)
+
 ### /v1/ed25519/didKey/legacy-noStatus-noExpiry.json
 
 <details>
@@ -2480,6 +2544,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacy-noStatus-noExpiry.json)
 
 ### /v1/ed25519/didKey/legacyRegistry-noStatus-noExpiry-issuerImageId.json
 
@@ -2541,6 +2607,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacyRegistry-noStatus-noExpiry-issuerImageId.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/legacyRegistry-noStatus-noExpiry-issuerImageId.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/legacyRegistry-noStatus-noExpiry-issuerImageId.json)
 
 ### /v1/ed25519/didKey/mixedRegistry-validStatus-noExpiry.json
 
@@ -2618,6 +2686,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/mixedRegistry-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/mixedRegistry-validStatus-noExpiry.json)
+
 ### /v1/ed25519/didKey/noRegistry-noStatus-noExpiry.json
 
 <details>
@@ -2687,6 +2757,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/noRegistry-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/noRegistry-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/noRegistry-noStatus-noExpiry.json)
 
 ### /v1/ed25519/didKey/oidf-noStatus-expired.json
 
@@ -2759,6 +2831,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/oidf-noStatus-expired.png)
 
+)
+
 ### /v1/ed25519/didKey/oidf-noStatus-noExpiry.json
 
 <details>
@@ -2828,6 +2902,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didKey/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/ed25519/didKey/oidf-revokedStatus-expired.json
 
@@ -2906,6 +2982,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didKey/oidf-revokedStatus-expired.png)
 
+)
+
 ### /v1/ed25519/didWeb/legacy-noStatus-noExpiry.json
 
 <details>
@@ -2975,6 +3053,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didWeb/legacy-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/legacy-noStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didWeb/legacy-noStatus-noExpiry.json)
 
 ### /v1/ed25519/didWeb/legacy-revokedStatus-noExpiry.json
 
@@ -3052,6 +3132,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/legacy-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didWeb/legacy-revokedStatus-noExpiry.json)
+
 ### /v1/ed25519/didWeb/legacy-validStatus-noExpiry.json
 
 <details>
@@ -3128,6 +3210,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/legacy-validStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didWeb/legacy-validStatus-noExpiry.json)
+
 ### /v1/ed25519/didWeb/oidf-noStatus-noExpiry.json
 
 <details>
@@ -3197,6 +3281,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v1/ed25519/didWeb/oidf-noStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/oidf-noStatus-noExpiry.png)
+
+)
 
 ### /v1/ed25519/didWeb/oidf-revokedStatus-noExpiry.json
 
@@ -3274,6 +3360,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/oidf-revokedStatus-noExpiry.png)
 
+)
+
 ### /v1/ed25519/didWeb/oidf-validStatus-noExpiry.json
 
 <details>
@@ -3350,6 +3438,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v1/ed25519/didWeb/oidf-validStatus-noExpiry.png)
 
+)
+
 ### /v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json
 
 <details>
@@ -3412,6 +3502,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json)
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry-nonOBWithOBContext.json)
 
 ### /v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json
 
@@ -3485,6 +3577,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-noExpiry.json)
+
 ### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.json
 
 <details>
@@ -3555,6 +3649,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement-withSchema.json)
+
 ### /v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json
 
 <details>
@@ -3618,6 +3714,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json)
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/legacy-noStatus-notExpired-endorsement.json)
 
 ### /v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-expired.json
 
@@ -3699,6 +3797,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-expired.json)
+
 ### /v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-notExpired.json
 
 <details>
@@ -3779,6 +3879,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-notExpired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/noRegistry-revokedStatus-notExpired.json)
+
 ### /v2/bothSignatureTypes/didkey/oidf-revokedStatus-noExpiry.json
 
 <details>
@@ -3857,6 +3959,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didkey/oidf-revokedStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didkey/oidf-revokedStatus-noExpiry.png)
+
+)
 
 ### /v2/bothSignatureTypes/didweb/legacy-revokedStatus-expired.json
 
@@ -3938,6 +4042,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/legacy-revokedStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didweb/legacy-revokedStatus-expired.json)
+
 ### /v2/bothSignatureTypes/didweb/legacy-revokedStatus-noExpiry.json
 
 <details>
@@ -4017,6 +4123,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/legacy-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didweb/legacy-revokedStatus-noExpiry.json)
+
 ### /v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.json
 
 <details>
@@ -4089,6 +4197,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.json)
 
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
+
+)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json
 
@@ -4163,6 +4273,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
 
 <details>
@@ -4224,6 +4336,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-achievementTypeExample.json
 
@@ -4288,6 +4402,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-achievementTypeExample.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-achievementTypeExample.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-achievementTypeExample.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.json
 
@@ -4370,6 +4486,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-alignments.json)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json
 
 <details>
@@ -4431,6 +4549,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-basicOBv3.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.json
 
@@ -4505,6 +4625,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credName.json)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credSubjName.json
 
 <details>
@@ -4577,6 +4699,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credSubjName.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credSubjName.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-credSubjName.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.json
 
@@ -4657,6 +4781,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-identityHash.json)
+
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json
 
 <details>
@@ -4695,6 +4821,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-minimal.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json
 
@@ -4764,6 +4892,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-notExpired-withSchema.json)
 
 ### /v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.json
 
@@ -4836,6 +4966,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.json)
+
 ### /v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.json
 
 <details>
@@ -4906,6 +5038,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/noRegsitry-revokedStatus-notExpired.json)
 
 ### /v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.json
 
@@ -5054,6 +5188,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-complexIssuer.png)
 
+)
+
 ### /v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.json
 
 <details>
@@ -5163,6 +5299,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-noStatus-notExpired-notYetValid.png)
 
+)
+
 ### /v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json
 
 <details>
@@ -5232,6 +5370,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/oidf-revokedStatus-noExpiry.png)
+
+)
 
 ### /v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.json
 
@@ -5306,6 +5446,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-revoked-notExpired-badSchema.json)
+
 ### /v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json
 
 <details>
@@ -5375,6 +5517,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json)
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/twoOIDF-validStatus-expired.json)
 
 ### /v2/dataIntegrityProof/didweb/legacy-revokedStatus-expired.json
 
@@ -5447,6 +5591,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didweb/legacy-revokedStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didweb/legacy-revokedStatus-expired.json)
+
 ### /v2/dataIntegrityProof/didweb/legacy-revokedStatus-noExpiry.json
 
 <details>
@@ -5517,6 +5663,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didweb/legacy-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didweb/legacy-revokedStatus-noExpiry.json)
+
 ### /v2/dataIntegrityProof/didweb/oidf-noStatus-notExpired.json
 
 <details>
@@ -5581,6 +5729,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/dataIntegrityProof/didweb/oidf-noStatus-notExpired.png)
 
+)
+
 ### /v2/ed25519/didKey/legacy-expiredStatus-noExpiry.json
 
 <details>
@@ -5627,6 +5777,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-expiredStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-expiredStatus-noExpiry.json)
+
 ### /v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json
 
 <details>
@@ -5672,6 +5824,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-missingTypeStatus-noExpiry.json)
 
 ### /v2/ed25519/didKey/legacy-noStatus-expired.json
 
@@ -5736,6 +5890,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-expired.json)
+
 ### /v2/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.json
 
 <details>
@@ -5791,6 +5947,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry-stringIssuerId.json)
 
 ### /v2/ed25519/didKey/legacy-noStatus-noExpiry.json
 
@@ -5854,6 +6012,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-noStatus-noExpiry.json)
+
 ### /v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.json
 
 <details>
@@ -5900,6 +6060,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-notYetValidStatus-noExpiry.json)
+
 ### /v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json
 
 <details>
@@ -5945,6 +6107,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/legacy-tamperedStatus-noExpiry.json)
 
 ### /v2/ed25519/didKey/noRegistry-revokedStatus-expired.json
 
@@ -6016,6 +6180,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/noRegistry-revokedStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/noRegistry-revokedStatus-expired.json)
+
 ### /v2/ed25519/didKey/noRegistry-revokedStatus-notExpired.json
 
 <details>
@@ -6086,6 +6252,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/noRegistry-revokedStatus-notExpired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didKey/noRegistry-revokedStatus-notExpired.json)
+
 ### /v2/ed25519/didKey/oidf-revokedStatus-noExpiry.json
 
 <details>
@@ -6155,6 +6323,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didKey/oidf-revokedStatus-noExpiry.png)
 
+)
+
 ### /v2/ed25519/didWeb/badDidWeb.json
 
 <details>
@@ -6217,6 +6387,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didWeb/badDidWeb.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didWeb/badDidWeb.png)
+
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didWeb/badDidWeb.json)
 
 ### /v2/ed25519/didWeb/legacy-revokedStatus-expired.json
 
@@ -6288,6 +6460,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didWeb/legacy-revokedStatus-expired.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didWeb/legacy-revokedStatus-expired.json)
+
 ### /v2/ed25519/didWeb/legacy-revokedStatus-noExpiry.json
 
 <details>
@@ -6357,6 +6531,8 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 
 ![QR](verifiableCredentials/v2/ed25519/didWeb/legacy-revokedStatus-noExpiry.png)
 
+Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didWeb/legacy-revokedStatus-noExpiry.json)
+
 ### /v2/ed25519/didWeb/oidf-noStatus-notExpired.json
 
 <details>
@@ -6419,4 +6595,6 @@ A list of all the Verifiable Credentials in this repository, providing for each 
 [Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/ed25519/didWeb/oidf-noStatus-notExpired.json)
 
 ![QR](verifiableCredentials/v2/ed25519/didWeb/oidf-noStatus-notExpired.png)
+
+)
 
