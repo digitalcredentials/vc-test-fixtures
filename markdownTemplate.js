@@ -17,5 +17,9 @@ A list of all the Verifiable Credentials in this repository, providing for each 
   - the type of registry, i.e, legacy, mixedRegistry, oidf, etc.
   - the revocation status; noStatus, validStatus, or revoked
   - the expiration status: expired, notExpired, noExpiry
-  
+
+### Known issues
+
+- \`/v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.json\` is named noExpiry, but its \`validUntil\` is 2 January 2010, so verifiers report it as expired. Its issuer's key is not published here, so it can't be re-signed; for the same credential unexpired, use \`noRegsitry-revokedStatus-notExpired.json\` beside it (valid until 2056).
+
 `
