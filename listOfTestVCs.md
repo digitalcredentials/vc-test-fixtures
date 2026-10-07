@@ -17,7 +17,12 @@ A list of all the Verifiable Credentials in this repository, providing for each 
   - the type of registry, i.e, legacy, mixedRegistry, oidf, etc.
   - the revocation status; noStatus, validStatus, or revoked
   - the expiration status: expired, notExpired, noExpiry
-  
+
+### Known issues
+
+- `/v2/dataIntegrityProof/didKey/noRegistry-revokedStatus-noExpiry.json` is named noExpiry, but its `validUntil` is 2 January 2010, so verifiers report it as expired. Its issuer's key is not published here, so it can't be re-signed; for the same credential unexpired, use `noRegsitry-revokedStatus-notExpired.json` beside it (valid until 2056).
+- Both of those point at a revocation status list in verifier-core's test fixtures that currently returns 404, so the revocation check can't run on them.
+
 ### /v1/bothSignatureTypes/didKey/fourRegistry-noStatus-noExpiry.json
 
 <details>
@@ -2534,7 +2539,60 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
 <summary>Click to see copyable raw json</summary>
 
 ```json
-   
+   {
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "urn:uuid:2fe53dc9-b2ec-4939-9b2c-0d00f6663b6c",
+  "issuanceDate": "2025-01-09T15:06:31Z",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "name": "DCC Test Credential",
+  "issuer": {
+    "type": [
+      "Profile"
+    ],
+    "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "name": "Digital Credentials Consortium Test Issuer",
+    "url": "https://dcconsortium.org",
+    "image": "https://user-images.githubusercontent.com/752326/230469660-8f80d264-eccf-4edd-8e50-ea634d407778.png"
+  },
+  "credentialSubject": {
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "urn:uuid:bd6d9316-f7ae-4073-a1e5-2f7f5bd22922",
+      "type": [
+        "Achievement"
+      ],
+      "achievementType": "Diploma",
+      "name": "Badge",
+      "description": "This is a sample credential issued by the Digital Credentials Consortium to demonstrate the functionality of Verifiable Credentials for wallets and verifiers.",
+      "criteria": {
+        "type": "Criteria",
+        "narrative": "This credential was issued to a student that demonstrated proficiency in the Python programming language that occurred from **February 17, 2023** to **June 12, 2023**."
+      },
+      "image": {
+        "id": "https://user-images.githubusercontent.com/752326/214947713-15826a3a-b5ac-4fba-8d4a-884b60cb7157.png",
+        "type": "Image"
+      }
+    },
+    "name": "Jane Doe"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-10-07T02:11:40Z",
+    "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3LRNVU3qQptasZrBkLFxzCRWgGexPHxafxJZSFXSsLJ5CCJy7DmeGzCht4evyKxBZtTT7kn45FFvGKxnbNxNkw8z"
+  }
+}
+
 ```
 
 </details>
@@ -4199,81 +4257,6 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
 ![QR](verifiableCredentials/v2/bothSignatureTypes/didweb/oidf-noStatus-notExpired.png)
 
 )
-
-### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json
-
-<details>
-
-<summary>Click to see copyable raw json</summary>
-
-```json
-   {
-    "@context": [
-        "https://www.w3.org/ns/credentials/v2",
-        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-        "https://w3id.org/security/suites/ed25519-2020/v1"
-    ],
-    "id": "urn:uuid:19281fe8-90d2-4eao-a9da-6188898a6c",
-    "type": [
-        "VerifiableCredential",
-        "OpenBadgeCredential"
-    ],
-    "issuer": {
-        "type": [
-            "Profile"
-        ],
-        "name": "The Learned",
-        "image": {
-            "id": "https://digitalcredentials.github.io/badge-assets/classroom.png",
-            "type": "Image",
-            "caption": "Learned logo"
-        },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
-    },
-    "validFrom": "2025-02-24T00:00:00Z",
-    "credentialSubject": {
-        "type": [
-            "AchievementSubject"
-        ],
-        "name": "Parker Pearl",
-        "achievement": {
-            "id": "https://something.org/theProgram",
-            "achievementType": "Program",
-            "type": [
-                "Achievement"
-            ],
-            "image": {
-                "id": "https://digitalcredentials.github.io/badge-assets/brain.png",
-                "type": "Image",
-                "caption": "Certificate logo"
-            },
-            "criteria": {
-                "narrative": "Objectively told the truth"
-            },
-            "description": "Successfully completed all modules.",
-            "name": "Truth, veracity, candor, and verisimilitude."
-        }
-    },
-    "proof": {
-        "type": "DataIntegrityProof",
-        "created": "2025-12-16T15:29:35Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
-        "cryptosuite": "eddsa-rdfc-2022",
-        "proofPurpose": "assertionMethod",
-        "proofValue": "z2Zw9tAWVKxVpUX6dHnXcrP2y4kGPP5LYBQ9CvZrVyJ5JMq9wVtfZCv68otSYPuxpzahSdGBQQjXagQE5rDwLCBZr"
-    }
-}
-```
-
-</details>
-
-[rawURL](https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
-
-[Open Directly in VerifierPlus](https://verifierplus.org/#verify?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
-
-![QR](verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.png)
-
-Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good?vc=https://digitalcredentials.github.io/vc-test-fixtures/verifiableCredentials/v2/dataIntegrityProof/didKey/legacyRegistry-noStatus- noExpiry-credSubjName.json)
 
 ### /v2/dataIntegrityProof/didKey/legacyRegistry-noStatus-noExpiry-OBSpecExample.json
 
