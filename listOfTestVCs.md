@@ -3467,7 +3467,6 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
         "name": "State Department of Education"
     },
     "validFrom": "2010-01-01T00:00:00Z",
-    "validUntil": "2030-01-01T00:00:00Z",
     "credentialSubject": {
         "id": "https://1edtech.edu/issuers/565049",
         "type": [
@@ -3478,18 +3477,18 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
     "proof": [
         {
             "type": "DataIntegrityProof",
-            "created": "2025-10-22T13:20:55Z",
+            "created": "2026-10-08T00:48:07Z",
             "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
             "cryptosuite": "eddsa-rdfc-2022",
             "proofPurpose": "assertionMethod",
-            "proofValue": "z2MVWaHfKvfzTTu8rEXCDya4HGPQmiRsgZopMUaTkTrSAL9TYZAvgE5QH4oo3SJGmZDDDBDJ1JkKU7CfHGuCgRhXH"
+            "proofValue": "zhbyRNwNvJTpSEtSgJkdRuuZC3HPgWa5YmHW5riSGi8fsvu21PgQtv3wx8eSrKPEsWhGXERzmqjzo3dkUs1MJF6D"
         },
         {
             "type": "Ed25519Signature2020",
-            "created": "2025-10-22T13:20:55Z",
+            "created": "2026-10-08T00:48:07Z",
             "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
             "proofPurpose": "assertionMethod",
-            "proofValue": "z5UGS9qzcFZS5NSEQpSZbsfz7yfZR8MHYqqKX1dTiKCfTckmBpxjQNfd7sS3xFKAgcHR5Miqwm8yYanTCWLrRBCef"
+            "proofValue": "zB591p2QiJNPyqMMczuXA2REjFoSBV7UkEXVhM4yQur9W45qehy1HQaD2XA3pg1cZANkcFKe1ibYJgUe1DVfmFQW"
         }
     ]
 }
@@ -4228,7 +4227,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
             "type": "Image",
             "caption": "Learned logo"
         },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
     },
     "validFrom": "2025-02-24T00:00:00Z",
     "credentialSubject": {
@@ -4256,11 +4255,11 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-12-16T15:29:35Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "created": "2026-10-08T00:48:07Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z2Zw9tAWVKxVpUX6dHnXcrP2y4kGPP5LYBQ9CvZrVyJ5JMq9wVtfZCv68otSYPuxpzahSdGBQQjXagQE5rDwLCBZr"
+        "proofValue": "z4Pf9xuax5LmDi6CLHBSGo1x37Lgc7wHPJBq84FVoaNSMcifTb3R5dW8R5GSTVfdf9UroPEy83NMyx2YixDttxrm8"
     }
 }
 ```
@@ -4580,7 +4579,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
             "type": "Image",
             "caption": "Learned logo"
         },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
     },
     "validFrom": "2025-02-24T00:00:00Z",
     "name": "Parker Pearl",
@@ -4608,11 +4607,11 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-12-16T15:34:06Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "created": "2026-10-08T00:48:07Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "zJq8faw3zV7qgkRZFeMxVCF3WADmeYTgsTUrem2c4bJU7LQYEKeTx9u2jk16fyF8QrhVE5cQA425DG6HZwhRqbHZ"
+        "proofValue": "z4u1zRCQ8GLKYwB2aAcXmQqguFxXg2aW9UxRqzp6qspkanozWbE82Dz4yrGBPqdWZUR275bb1MjJqMm4ysCntCsFK"
     }
 }
 ```
@@ -4655,7 +4654,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
             "type": "Image",
             "caption": "Learned logo"
         },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
     },
     "validFrom": "2025-02-24T00:00:00Z",
     "credentialSubject": {
@@ -4683,11 +4682,11 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-12-16T15:29:35Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "created": "2026-10-08T00:48:07Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z2Zw9tAWVKxVpUX6dHnXcrP2y4kGPP5LYBQ9CvZrVyJ5JMq9wVtfZCv68otSYPuxpzahSdGBQQjXagQE5rDwLCBZr"
+        "proofValue": "z4Pf9xuax5LmDi6CLHBSGo1x37Lgc7wHPJBq84FVoaNSMcifTb3R5dW8R5GSTVfdf9UroPEy83NMyx2YixDttxrm8"
     }
 }
 ```
@@ -4730,7 +4729,7 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
             "type": "Image",
             "caption": "Learned logo"
         },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
     },
     "validFrom": "2025-02-24T00:00:00Z",
     "credentialSubject": {
@@ -4764,11 +4763,11 @@ Experimental: [Open in veri-good](https://digitalcredentials.github.io/veri-good
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-12-16T14:47:29Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "created": "2026-10-08T00:48:07Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z3F4tZZSnoeZiSW7JhMuUMUjefidVHaMk2HHBqvv2KXbhJ7FTTvmbUTDHD1jnSmgq3SmiggHSdfT4QdPEQvcTdr6c"
+        "proofValue": "z5eME9mcgvZWrKmdhPwTjTgJfhqhHacBmNUXXySKt3cMAzMKSmB8hxoWK62cvasxqDgrSdBubbYAsxH8a6bF4MHSF"
     }
 }
 ```

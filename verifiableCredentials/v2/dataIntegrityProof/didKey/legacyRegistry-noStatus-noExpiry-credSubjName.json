@@ -19,7 +19,7 @@
             "type": "Image",
             "caption": "Learned logo"
         },
-        "id": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS"
+        "id": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
     },
     "validFrom": "2025-02-24T00:00:00Z",
     "credentialSubject": {
@@ -47,10 +47,10 @@
     },
     "proof": {
         "type": "DataIntegrityProof",
-        "created": "2025-12-16T15:29:35Z",
-        "verificationMethod": "did:key:z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS#z6MkjoriXdbyWD25YXTed114F8hdJrLXQ567xxPHAUKxpKkS",
+        "created": "2026-10-08T00:48:07Z",
+        "verificationMethod": "did:key:z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z2Zw9tAWVKxVpUX6dHnXcrP2y4kGPP5LYBQ9CvZrVyJ5JMq9wVtfZCv68otSYPuxpzahSdGBQQjXagQE5rDwLCBZr"
+        "proofValue": "z4Pf9xuax5LmDi6CLHBSGo1x37Lgc7wHPJBq84FVoaNSMcifTb3R5dW8R5GSTVfdf9UroPEy83NMyx2YixDttxrm8"
     }
 }
